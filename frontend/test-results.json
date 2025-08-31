@@ -1,0 +1,1916 @@
+﻿
+
+====================================================================================================
+
+  (Run Starting)
+
+  ÔöîÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÉ
+  Ôöé Cypress:        15.0.0                                                                         Ôöé
+  Ôöé Browser:        Electron 136 (headless)                                                        Ôöé
+  Ôöé Node Version:   v22.17.0 (C:\Program Files\nodejs\node.exe)                                    Ôöé
+  Ôöé Specs:          1 found (position.cy.js)                                                       Ôöé
+  Ôöé Searched:       C:\Users\David\Documents\GitHub\AI4Devs-qa-202506_DSM\frontend\cypress\e2e\pos Ôöé
+  Ôöé                 ition.cy.js                                                                    Ôöé
+  ÔööÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÿ
+
+
+ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇ
+                                                                                                    
+  Running:  position.cy.js                                                                  (1 of 1)
+{
+  "stats": {
+    "suites": 4,
+    "tests": 10,
+    "passes": 1,
+    "pending": 0,
+    "failures": 9,
+    "start": "2025-08-31T14:36:22.009Z",
+    "end": "2025-08-31T14:37:10.690Z",
+    "duration": 48681
+  },
+  "tests": [
+    {
+      "title": "should display the position title correctly",
+      "fullTitle": "Position Details - End to End Tests Use Case 1: Position Page Load should display the position title correctly",
+      "file": null,
+      "duration": 7700,
+      "currentRetry": 0,
+      "err": {
+        "message": "Timed out retrying after 4000ms: expected '<h2.text-center.mb-4>' to contain text 'Frontend Developer', but the text was 'Senior Full-Stack Engineer'",
+        "name": "AssertionError",
+        "stack": "AssertionError: Timed out retrying after 4000ms: expected '<h2.text-center.mb-4>' to contain text 'Frontend Developer', but the text was 'Senior Full-Stack Engineer'\n    at Context.eval (webpack://frontend/./cypress/e2e/position.cy.js:26:19)",
+        "parsedStack": [
+          {
+            "message": "AssertionError: Timed out retrying after 4000ms: expected '<h2.text-center.mb-4>' to contain text 'Frontend Developer', but the text was 'Senior Full-Stack Engineer'",
+            "whitespace": ""
+          },
+          {
+            "function": "Context.eval",
+            "fileUrl": "http://localhost:3000/__cypress/tests?p=cypress\\e2e\\position.cy.js",
+            "originalFile": "webpack://frontend/./cypress/e2e/position.cy.js",
+            "relativeFile": "cypress/e2e/position.cy.js",
+            "absoluteFile": "C:\\Users\\David\\Documents\\GitHub\\AI4Devs-qa-202506_DSM\\frontend/cypress/e2e/position.cy.js",
+            "line": 26,
+            "column": 19,
+            "whitespace": "    "
+          }
+        ],
+        "actual": "'Senior Full-Stack Engineer'",
+        "expected": "'Frontend Developer'",
+        "showDiff": true,
+        "codeFrame": {
+          "line": 26,
+          "column": 20,
+          "originalFile": "cypress/e2e/position.cy.js",
+          "relativeFile": "cypress/e2e/position.cy.js",
+          "absoluteFile": "C:\\Users\\David\\Documents\\GitHub\\AI4Devs-qa-202506_DSM\\frontend/cypress/e2e/position.cy.js",
+          "frame": "  24 |       \n  25 |       // Verify position title is displayed\n> 26 |       cy.get('h2').should('contain.text', 'Frontend Developer'); // Adjust based on your test data\n     |                    ^\n  27 |       \n  28 |       // Alternative: Check that any non-empty title is displayed\n  29 |       cy.get('h2').should('not.be.empty');",
+          "language": "js"
+        }
+      }
+    },
+    {
+      "title": "should display all columns for each hiring stage",
+      "fullTitle": "Position Details - End to End Tests Use Case 1: Position Page Load should display all columns for each hiring stage",
+      "file": null,
+      "duration": 810,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should display candidate cards in the correct column according to their current stage",
+      "fullTitle": "Position Details - End to End Tests Use Case 1: Position Page Load should display candidate cards in the correct column according to their current stage",
+      "file": null,
+      "duration": 4633,
+      "currentRetry": 0,
+      "err": {
+        "message": "Timed out retrying after 4000ms: Expected to find element: `[data-testid=\"candidate-card\"]`, but never found it.",
+        "type": "existence",
+        "name": "AssertionError",
+        "stack": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `[data-testid=\"candidate-card\"]`, but never found it.\n    at Context.eval (webpack://frontend/./cypress/e2e/position.cy.js:71:17)\n    at withinFn (http://localhost:3000/__cypress/runner/cypress_runner.js:135903:8)\n    at <unknown> (http://localhost:3000/__cypress/runner/cypress_runner.js:135984:16)\n    at __WEBPACK_DEFAULT_EXPORT__ (http://localhost:3000/__cypress/runner/cypress_runner.js:133819:10)\n    at Context.within (http://localhost:3000/__cypress/runner/cypress_runner.js:135970:67)\n    at wrapped (http://localhost:3000/__cypress/runner/cypress_runner.js:141618:19)",
+        "parsedStack": [
+          {
+            "message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `[data-testid=\"candidate-card\"]`, but never found it.",
+            "whitespace": ""
+          },
+          {
+            "function": "Context.eval",
+            "fileUrl": "http://localhost:3000/__cypress/tests?p=cypress\\e2e\\position.cy.js",
+            "originalFile": "webpack://frontend/./cypress/e2e/position.cy.js",
+            "relativeFile": "cypress/e2e/position.cy.js",
+            "absoluteFile": "C:\\Users\\David\\Documents\\GitHub\\AI4Devs-qa-202506_DSM\\frontend/cypress/e2e/position.cy.js",
+            "line": 71,
+            "column": 17,
+            "whitespace": "    "
+          },
+          {
+            "function": "withinFn",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 135903,
+            "column": 8,
+            "whitespace": "    "
+          },
+          {
+            "function": "<unknown>",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 135984,
+            "column": 16,
+            "whitespace": "    "
+          },
+          {
+            "function": "__WEBPACK_DEFAULT_EXPORT__",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 133819,
+            "column": 10,
+            "whitespace": "    "
+          },
+          {
+            "function": "Context.within",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 135970,
+            "column": 67,
+            "whitespace": "    "
+          },
+          {
+            "function": "wrapped",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 141618,
+            "column": 19,
+            "whitespace": "    "
+          }
+        ],
+        "codeFrame": {
+          "line": 71,
+          "column": 18,
+          "originalFile": "cypress/e2e/position.cy.js",
+          "relativeFile": "cypress/e2e/position.cy.js",
+          "absoluteFile": "C:\\Users\\David\\Documents\\GitHub\\AI4Devs-qa-202506_DSM\\frontend/cypress/e2e/position.cy.js",
+          "frame": "  69 |             cy.get('.card-body').within(() => {\n  70 |               // If there are candidates, verify they are displayed properly\n> 71 |               cy.get('[data-testid=\"candidate-card\"]').then(($candidates) => {\n     |                  ^\n  72 |                 if ($candidates.length > 0) {\n  73 |                   // Verify each candidate card has required information\n  74 |                   cy.wrap($candidates).each(($card) => {",
+          "language": "js"
+        }
+      }
+    },
+    {
+      "title": "should load the page without errors",
+      "fullTitle": "Position Details - End to End Tests Use Case 1: Position Page Load should load the page without errors",
+      "file": null,
+      "duration": 1454,
+      "currentRetry": 0,
+      "err": {
+        "message": "[Function: error] is not a spy or a call to a spy!",
+        "name": "TypeError",
+        "stack": "TypeError: [Function: error] is not a spy or a call to a spy!\n    at assertCanWorkWith (http://localhost:3000/__cypress/runner/cypress_runner.js:142749:19)\n    at Assertion.<anonymous> (http://localhost:3000/__cypress/runner/cypress_runner.js:142788:13)\n    at Assertion.propertyGetter (http://localhost:3000/__cypress/runner/cypress_runner.js:80142:29)\n    at Object.proxyGetter [as get] (http://localhost:3000/__cypress/runner/cypress_runner.js:80426:22)\n    at Context.eval (webpack://frontend/./cypress/e2e/position.cy.js:97:51)\n    at getRet (http://localhost:3000/__cypress/runner/cypress_runner.js:120768:20)\n    at tryCatcher (http://localhost:3000/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (http://localhost:3000/__cypress/runner/cypress_runner.js:4285:29)\n    at Context.thenFn (http://localhost:3000/__cypress/runner/cypress_runner.js:120779:66)\n    at Context.then (http://localhost:3000/__cypress/runner/cypress_runner.js:121030:21)\n    at wrapped (http://localhost:3000/__cypress/runner/cypress_runner.js:141618:19)\n    at <unknown> (http://localhost:3000/__cypress/runner/cypress_runner.js:147554:15)\n    at tryCatcher (http://localhost:3000/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (http://localhost:3000/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (http://localhost:3000/__cypress/runner/cypress_runner.js:1546:18)\n    at Promise._settlePromiseCtx (http://localhost:3000/__cypress/runner/cypress_runner.js:1583:10)\n    at _drainQueueStep (http://localhost:3000/__cypress/runner/cypress_runner.js:2381:12)\n    at _drainQueue (http://localhost:3000/__cypress/runner/cypress_runner.js:2370:9)\n    at Async._drainQueues (http://localhost:3000/__cypress/runner/cypress_runner.js:2386:5)\n    at Async.drainQueues (http://localhost:3000/__cypress/runner/cypress_runner.js:2256:14)",
+        "parsedStack": [
+          {
+            "message": "TypeError: [Function: error] is not a spy or a call to a spy!",
+            "whitespace": ""
+          },
+          {
+            "function": "assertCanWorkWith",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 142749,
+            "column": 19,
+            "whitespace": "    "
+          },
+          {
+            "function": "Assertion.<anonymous>",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 142788,
+            "column": 13,
+            "whitespace": "    "
+          },
+          {
+            "function": "Assertion.propertyGetter",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 80142,
+            "column": 29,
+            "whitespace": "    "
+          },
+          {
+            "function": "Object.proxyGetter [as get]",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 80426,
+            "column": 22,
+            "whitespace": "    "
+          },
+          {
+            "function": "Context.eval",
+            "fileUrl": "http://localhost:3000/__cypress/tests?p=cypress\\e2e\\position.cy.js",
+            "originalFile": "webpack://frontend/./cypress/e2e/position.cy.js",
+            "relativeFile": "cypress/e2e/position.cy.js",
+            "absoluteFile": "C:\\Users\\David\\Documents\\GitHub\\AI4Devs-qa-202506_DSM\\frontend/cypress/e2e/position.cy.js",
+            "line": 97,
+            "column": 51,
+            "whitespace": "    "
+          },
+          {
+            "function": "getRet",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 120768,
+            "column": 20,
+            "whitespace": "    "
+          },
+          {
+            "function": "tryCatcher",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 1777,
+            "column": 23,
+            "whitespace": "    "
+          },
+          {
+            "function": "Promise.attempt.Promise.try",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 4285,
+            "column": 29,
+            "whitespace": "    "
+          },
+          {
+            "function": "Context.thenFn",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 120779,
+            "column": 66,
+            "whitespace": "    "
+          },
+          {
+            "function": "Context.then",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 121030,
+            "column": 21,
+            "whitespace": "    "
+          },
+          {
+            "function": "wrapped",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 141618,
+            "column": 19,
+            "whitespace": "    "
+          },
+          {
+            "function": "<unknown>",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 147554,
+            "column": 15,
+            "whitespace": "    "
+          },
+          {
+            "function": "tryCatcher",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 1777,
+            "column": 23,
+            "whitespace": "    "
+          },
+          {
+            "function": "Promise._settlePromiseFromHandler",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 1489,
+            "column": 31,
+            "whitespace": "    "
+          },
+          {
+            "function": "Promise._settlePromise",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 1546,
+            "column": 18,
+            "whitespace": "    "
+          },
+          {
+            "function": "Promise._settlePromiseCtx",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 1583,
+            "column": 10,
+            "whitespace": "    "
+          },
+          {
+            "function": "_drainQueueStep",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 2381,
+            "column": 12,
+            "whitespace": "    "
+          },
+          {
+            "function": "_drainQueue",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 2370,
+            "column": 9,
+            "whitespace": "    "
+          },
+          {
+            "function": "Async._drainQueues",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 2386,
+            "column": 5,
+            "whitespace": "    "
+          },
+          {
+            "function": "Async.drainQueues",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 2256,
+            "column": 14,
+            "whitespace": "    "
+          }
+        ]
+      }
+    },
+    {
+      "title": "should simulate dragging a candidate card from one column to another",
+      "fullTitle": "Position Details - End to End Tests Use Case 2: Candidate Stage Change should simulate dragging a candidate card from one column to another",
+      "file": null,
+      "duration": 4708,
+      "currentRetry": 0,
+      "err": {
+        "message": "Timed out retrying after 4000ms: Expected to find element: `[data-testid=\"candidate-card\"]`, but never found it.",
+        "type": "existence",
+        "name": "AssertionError",
+        "stack": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `[data-testid=\"candidate-card\"]`, but never found it.\n    at Context.eval (webpack://frontend/./cypress/e2e/position.cy.js:121:11)\n    at withinFn (http://localhost:3000/__cypress/runner/cypress_runner.js:135903:8)\n    at <unknown> (http://localhost:3000/__cypress/runner/cypress_runner.js:135984:16)\n    at __WEBPACK_DEFAULT_EXPORT__ (http://localhost:3000/__cypress/runner/cypress_runner.js:133819:10)\n    at Context.within (http://localhost:3000/__cypress/runner/cypress_runner.js:135970:67)\n    at wrapped (http://localhost:3000/__cypress/runner/cypress_runner.js:141618:19)",
+        "parsedStack": [
+          {
+            "message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `[data-testid=\"candidate-card\"]`, but never found it.",
+            "whitespace": ""
+          },
+          {
+            "function": "Context.eval",
+            "fileUrl": "http://localhost:3000/__cypress/tests?p=cypress\\e2e\\position.cy.js",
+            "originalFile": "webpack://frontend/./cypress/e2e/position.cy.js",
+            "relativeFile": "cypress/e2e/position.cy.js",
+            "absoluteFile": "C:\\Users\\David\\Documents\\GitHub\\AI4Devs-qa-202506_DSM\\frontend/cypress/e2e/position.cy.js",
+            "line": 121,
+            "column": 11,
+            "whitespace": "    "
+          },
+          {
+            "function": "withinFn",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 135903,
+            "column": 8,
+            "whitespace": "    "
+          },
+          {
+            "function": "<unknown>",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 135984,
+            "column": 16,
+            "whitespace": "    "
+          },
+          {
+            "function": "__WEBPACK_DEFAULT_EXPORT__",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 133819,
+            "column": 10,
+            "whitespace": "    "
+          },
+          {
+            "function": "Context.within",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 135970,
+            "column": 67,
+            "whitespace": "    "
+          },
+          {
+            "function": "wrapped",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 141618,
+            "column": 19,
+            "whitespace": "    "
+          }
+        ],
+        "codeFrame": {
+          "line": 121,
+          "column": 12,
+          "originalFile": "cypress/e2e/position.cy.js",
+          "relativeFile": "cypress/e2e/position.cy.js",
+          "absoluteFile": "C:\\Users\\David\\Documents\\GitHub\\AI4Devs-qa-202506_DSM\\frontend/cypress/e2e/position.cy.js",
+          "frame": "  119 |       // Find the first column with candidates\n  120 |       cy.get('[data-testid=\"stage-column\"]').first().within(() => {\n> 121 |         cy.get('[data-testid=\"candidate-card\"]').first().then(($candidateCard) => {\n      |            ^\n  122 |           if ($candidateCard.length > 0) {\n  123 |             // Get the candidate name for verification\n  124 |             cy.wrap($candidateCard).find('.card-title').invoke('text').then((candidateName) => {",
+          "language": "js"
+        }
+      }
+    },
+    {
+      "title": "should ensure the candidate card moves to the new column visually",
+      "fullTitle": "Position Details - End to End Tests Use Case 2: Candidate Stage Change should ensure the candidate card moves to the new column visually",
+      "file": null,
+      "duration": 4686,
+      "currentRetry": 0,
+      "err": {
+        "message": "Timed out retrying after 4000ms: Expected to find element: `[data-testid=\"candidate-card\"]`, but never found it.",
+        "type": "existence",
+        "name": "AssertionError",
+        "stack": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `[data-testid=\"candidate-card\"]`, but never found it.\n    at Context.eval (webpack://frontend/./cypress/e2e/position.cy.js:151:15)\n    at withinFn (http://localhost:3000/__cypress/runner/cypress_runner.js:135903:8)\n    at <unknown> (http://localhost:3000/__cypress/runner/cypress_runner.js:135984:16)\n    at __WEBPACK_DEFAULT_EXPORT__ (http://localhost:3000/__cypress/runner/cypress_runner.js:133819:10)\n    at Context.within (http://localhost:3000/__cypress/runner/cypress_runner.js:135970:67)\n    at wrapped (http://localhost:3000/__cypress/runner/cypress_runner.js:141618:19)",
+        "parsedStack": [
+          {
+            "message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `[data-testid=\"candidate-card\"]`, but never found it.",
+            "whitespace": ""
+          },
+          {
+            "function": "Context.eval",
+            "fileUrl": "http://localhost:3000/__cypress/tests?p=cypress\\e2e\\position.cy.js",
+            "originalFile": "webpack://frontend/./cypress/e2e/position.cy.js",
+            "relativeFile": "cypress/e2e/position.cy.js",
+            "absoluteFile": "C:\\Users\\David\\Documents\\GitHub\\AI4Devs-qa-202506_DSM\\frontend/cypress/e2e/position.cy.js",
+            "line": 151,
+            "column": 15,
+            "whitespace": "    "
+          },
+          {
+            "function": "withinFn",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 135903,
+            "column": 8,
+            "whitespace": "    "
+          },
+          {
+            "function": "<unknown>",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 135984,
+            "column": 16,
+            "whitespace": "    "
+          },
+          {
+            "function": "__WEBPACK_DEFAULT_EXPORT__",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 133819,
+            "column": 10,
+            "whitespace": "    "
+          },
+          {
+            "function": "Context.within",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 135970,
+            "column": 67,
+            "whitespace": "    "
+          },
+          {
+            "function": "wrapped",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 141618,
+            "column": 19,
+            "whitespace": "    "
+          }
+        ],
+        "codeFrame": {
+          "line": 151,
+          "column": 16,
+          "originalFile": "cypress/e2e/position.cy.js",
+          "relativeFile": "cypress/e2e/position.cy.js",
+          "absoluteFile": "C:\\Users\\David\\Documents\\GitHub\\AI4Devs-qa-202506_DSM\\frontend/cypress/e2e/position.cy.js",
+          "frame": "  149 |           // Get initial state of columns\n  150 |           cy.get('[data-testid=\"stage-column\"]').first().within(() => {\n> 151 |             cy.get('[data-testid=\"candidate-card\"]').its('length').then((initialCount) => {\n      |                ^\n  152 |               \n  153 |               // Perform the drag operation\n  154 |               cy.get('[data-testid=\"candidate-card\"]').first().then(($card) => {",
+          "language": "js"
+        }
+      }
+    },
+    {
+      "title": "should ensure the candidate stage is updated in the backend via PUT /candidates/:id endpoint",
+      "fullTitle": "Position Details - End to End Tests Use Case 2: Candidate Stage Change should ensure the candidate stage is updated in the backend via PUT /candidates/:id endpoint",
+      "file": null,
+      "duration": 6508,
+      "currentRetry": 0,
+      "err": {
+        "message": "Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `updateCandidate`. No request ever occurred.\n\nhttps://on.cypress.io/wait",
+        "name": "CypressError",
+        "stack": "CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `updateCandidate`. No request ever occurred.\n\nhttps://on.cypress.io/wait\n    at cypressErr (http://localhost:3000/__cypress/runner/cypress_runner.js:77664:18)\n    at Object.errByPath (http://localhost:3000/__cypress/runner/cypress_runner.js:77718:10)\n    at checkForXhr (http://localhost:3000/__cypress/runner/cypress_runner.js:138846:84)\n    at <unknown> (http://localhost:3000/__cypress/runner/cypress_runner.js:138872:28)\n    at tryCatcher (http://localhost:3000/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (http://localhost:3000/__cypress/runner/cypress_runner.js:4285:29)\n    at whenStable (http://localhost:3000/__cypress/runner/cypress_runner.js:147282:68)\n    at <unknown> (http://localhost:3000/__cypress/runner/cypress_runner.js:147223:14)\n    at tryCatcher (http://localhost:3000/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (http://localhost:3000/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (http://localhost:3000/__cypress/runner/cypress_runner.js:1546:18)\n    at Promise._settlePromise0 (http://localhost:3000/__cypress/runner/cypress_runner.js:1591:10)\n    at Promise._settlePromises (http://localhost:3000/__cypress/runner/cypress_runner.js:1671:18)\n    at Promise._fulfill (http://localhost:3000/__cypress/runner/cypress_runner.js:1615:18)\n    at <unknown> (http://localhost:3000/__cypress/runner/cypress_runner.js:5420:46)",
+        "parsedStack": [
+          {
+            "message": "CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `updateCandidate`. No request ever occurred.",
+            "whitespace": ""
+          },
+          {
+            "function": "cypressErr",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 77664,
+            "column": 18,
+            "whitespace": "    "
+          },
+          {
+            "function": "Object.errByPath",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 77718,
+            "column": 10,
+            "whitespace": "    "
+          },
+          {
+            "function": "checkForXhr",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 138846,
+            "column": 84,
+            "whitespace": "    "
+          },
+          {
+            "function": "<unknown>",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 138872,
+            "column": 28,
+            "whitespace": "    "
+          },
+          {
+            "function": "tryCatcher",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 1777,
+            "column": 23,
+            "whitespace": "    "
+          },
+          {
+            "function": "Promise.attempt.Promise.try",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 4285,
+            "column": 29,
+            "whitespace": "    "
+          },
+          {
+            "function": "whenStable",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 147282,
+            "column": 68,
+            "whitespace": "    "
+          },
+          {
+            "function": "<unknown>",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 147223,
+            "column": 14,
+            "whitespace": "    "
+          },
+          {
+            "function": "tryCatcher",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 1777,
+            "column": 23,
+            "whitespace": "    "
+          },
+          {
+            "function": "Promise._settlePromiseFromHandler",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 1489,
+            "column": 31,
+            "whitespace": "    "
+          },
+          {
+            "function": "Promise._settlePromise",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 1546,
+            "column": 18,
+            "whitespace": "    "
+          },
+          {
+            "function": "Promise._settlePromise0",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 1591,
+            "column": 10,
+            "whitespace": "    "
+          },
+          {
+            "function": "Promise._settlePromises",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 1671,
+            "column": 18,
+            "whitespace": "    "
+          },
+          {
+            "function": "Promise._fulfill",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 1615,
+            "column": 18,
+            "whitespace": "    "
+          },
+          {
+            "function": "<unknown>",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 5420,
+            "column": 46,
+            "whitespace": "    "
+          }
+        ]
+      }
+    },
+    {
+      "title": "should handle drag and drop errors gracefully",
+      "fullTitle": "Position Details - End to End Tests Use Case 2: Candidate Stage Change should handle drag and drop errors gracefully",
+      "file": null,
+      "duration": 5874,
+      "currentRetry": 0,
+      "err": {
+        "message": "Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `updateCandidateError`. No request ever occurred.\n\nhttps://on.cypress.io/wait",
+        "name": "CypressError",
+        "stack": "CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `updateCandidateError`. No request ever occurred.\n\nhttps://on.cypress.io/wait\n    at cypressErr (http://localhost:3000/__cypress/runner/cypress_runner.js:77664:18)\n    at Object.errByPath (http://localhost:3000/__cypress/runner/cypress_runner.js:77718:10)\n    at checkForXhr (http://localhost:3000/__cypress/runner/cypress_runner.js:138846:84)\n    at <unknown> (http://localhost:3000/__cypress/runner/cypress_runner.js:138872:28)\n    at tryCatcher (http://localhost:3000/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (http://localhost:3000/__cypress/runner/cypress_runner.js:4285:29)\n    at whenStable (http://localhost:3000/__cypress/runner/cypress_runner.js:147282:68)\n    at <unknown> (http://localhost:3000/__cypress/runner/cypress_runner.js:147223:14)\n    at tryCatcher (http://localhost:3000/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (http://localhost:3000/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (http://localhost:3000/__cypress/runner/cypress_runner.js:1546:18)\n    at Promise._settlePromise0 (http://localhost:3000/__cypress/runner/cypress_runner.js:1591:10)\n    at Promise._settlePromises (http://localhost:3000/__cypress/runner/cypress_runner.js:1671:18)\n    at Promise._fulfill (http://localhost:3000/__cypress/runner/cypress_runner.js:1615:18)\n    at <unknown> (http://localhost:3000/__cypress/runner/cypress_runner.js:5420:46)",
+        "parsedStack": [
+          {
+            "message": "CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `updateCandidateError`. No request ever occurred.",
+            "whitespace": ""
+          },
+          {
+            "function": "cypressErr",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 77664,
+            "column": 18,
+            "whitespace": "    "
+          },
+          {
+            "function": "Object.errByPath",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 77718,
+            "column": 10,
+            "whitespace": "    "
+          },
+          {
+            "function": "checkForXhr",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 138846,
+            "column": 84,
+            "whitespace": "    "
+          },
+          {
+            "function": "<unknown>",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 138872,
+            "column": 28,
+            "whitespace": "    "
+          },
+          {
+            "function": "tryCatcher",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 1777,
+            "column": 23,
+            "whitespace": "    "
+          },
+          {
+            "function": "Promise.attempt.Promise.try",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 4285,
+            "column": 29,
+            "whitespace": "    "
+          },
+          {
+            "function": "whenStable",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 147282,
+            "column": 68,
+            "whitespace": "    "
+          },
+          {
+            "function": "<unknown>",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 147223,
+            "column": 14,
+            "whitespace": "    "
+          },
+          {
+            "function": "tryCatcher",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 1777,
+            "column": 23,
+            "whitespace": "    "
+          },
+          {
+            "function": "Promise._settlePromiseFromHandler",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 1489,
+            "column": 31,
+            "whitespace": "    "
+          },
+          {
+            "function": "Promise._settlePromise",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 1546,
+            "column": 18,
+            "whitespace": "    "
+          },
+          {
+            "function": "Promise._settlePromise0",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 1591,
+            "column": 10,
+            "whitespace": "    "
+          },
+          {
+            "function": "Promise._settlePromises",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 1671,
+            "column": 18,
+            "whitespace": "    "
+          },
+          {
+            "function": "Promise._fulfill",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 1615,
+            "column": 18,
+            "whitespace": "    "
+          },
+          {
+            "function": "<unknown>",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 5420,
+            "column": 46,
+            "whitespace": "    "
+          }
+        ]
+      }
+    },
+    {
+      "title": "should maintain drag and drop functionality across multiple operations",
+      "fullTitle": "Position Details - End to End Tests Use Case 2: Candidate Stage Change should maintain drag and drop functionality across multiple operations",
+      "file": null,
+      "duration": 6142,
+      "currentRetry": 0,
+      "err": {
+        "message": "Timed out retrying after 4000ms: expected [] to have a length of 2 but got 0",
+        "name": "AssertionError",
+        "stack": "AssertionError: Timed out retrying after 4000ms: expected [] to have a length of 2 but got 0\n    at Context.eval (webpack://frontend/./cypress/e2e/position.cy.js:252:41)\n    at getRet (http://localhost:3000/__cypress/runner/cypress_runner.js:120768:20)\n    at tryCatcher (http://localhost:3000/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (http://localhost:3000/__cypress/runner/cypress_runner.js:4285:29)\n    at Context.thenFn (http://localhost:3000/__cypress/runner/cypress_runner.js:120779:66)\n    at Context.then (http://localhost:3000/__cypress/runner/cypress_runner.js:121030:21)\n    at wrapped (http://localhost:3000/__cypress/runner/cypress_runner.js:141618:19)",
+        "parsedStack": [
+          {
+            "message": "AssertionError: Timed out retrying after 4000ms: expected [] to have a length of 2 but got 0",
+            "whitespace": ""
+          },
+          {
+            "function": "Context.eval",
+            "fileUrl": "http://localhost:3000/__cypress/tests?p=cypress\\e2e\\position.cy.js",
+            "originalFile": "webpack://frontend/./cypress/e2e/position.cy.js",
+            "relativeFile": "cypress/e2e/position.cy.js",
+            "absoluteFile": "C:\\Users\\David\\Documents\\GitHub\\AI4Devs-qa-202506_DSM\\frontend/cypress/e2e/position.cy.js",
+            "line": 252,
+            "column": 41,
+            "whitespace": "    "
+          },
+          {
+            "function": "getRet",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 120768,
+            "column": 20,
+            "whitespace": "    "
+          },
+          {
+            "function": "tryCatcher",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 1777,
+            "column": 23,
+            "whitespace": "    "
+          },
+          {
+            "function": "Promise.attempt.Promise.try",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 4285,
+            "column": 29,
+            "whitespace": "    "
+          },
+          {
+            "function": "Context.thenFn",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 120779,
+            "column": 66,
+            "whitespace": "    "
+          },
+          {
+            "function": "Context.then",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 121030,
+            "column": 21,
+            "whitespace": "    "
+          },
+          {
+            "function": "wrapped",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 141618,
+            "column": 19,
+            "whitespace": "    "
+          }
+        ],
+        "actual": 0,
+        "expected": "2",
+        "showDiff": true,
+        "codeFrame": {
+          "line": 252,
+          "column": 42,
+          "originalFile": "cypress/e2e/position.cy.js",
+          "relativeFile": "cypress/e2e/position.cy.js",
+          "absoluteFile": "C:\\Users\\David\\Documents\\GitHub\\AI4Devs-qa-202506_DSM\\frontend/cypress/e2e/position.cy.js",
+          "frame": "  250 |           \n  251 |           // Verify both operations triggered API calls\n> 252 |           cy.get('@updateCandidate.all').should('have.length', 2);\n      |                                          ^\n  253 |         }\n  254 |       });\n  255 |     });",
+          "language": "js"
+        }
+      }
+    },
+    {
+      "title": "should maintain data consistency between frontend and backend after stage changes",
+      "fullTitle": "Position Details - End to End Tests Integration Tests should maintain data consistency between frontend and backend after stage changes",
+      "file": null,
+      "duration": 5438,
+      "currentRetry": 0,
+      "err": {
+        "message": "Timed out retrying after 4000ms: Expected to find element: `[data-testid=\"stage-column\"]`, but never found it.",
+        "type": "existence",
+        "name": "AssertionError",
+        "stack": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `[data-testid=\"stage-column\"]`, but never found it.\n    at Context.eval (webpack://frontend/./cypress/e2e/position.cy.js:274:17)\n    at getRet (http://localhost:3000/__cypress/runner/cypress_runner.js:120768:20)\n    at tryCatcher (http://localhost:3000/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (http://localhost:3000/__cypress/runner/cypress_runner.js:4285:29)\n    at Context.thenFn (http://localhost:3000/__cypress/runner/cypress_runner.js:120779:66)\n    at Context.then (http://localhost:3000/__cypress/runner/cypress_runner.js:121030:21)\n    at wrapped (http://localhost:3000/__cypress/runner/cypress_runner.js:141618:19)",
+        "parsedStack": [
+          {
+            "message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `[data-testid=\"stage-column\"]`, but never found it.",
+            "whitespace": ""
+          },
+          {
+            "function": "Context.eval",
+            "fileUrl": "http://localhost:3000/__cypress/tests?p=cypress\\e2e\\position.cy.js",
+            "originalFile": "webpack://frontend/./cypress/e2e/position.cy.js",
+            "relativeFile": "cypress/e2e/position.cy.js",
+            "absoluteFile": "C:\\Users\\David\\Documents\\GitHub\\AI4Devs-qa-202506_DSM\\frontend/cypress/e2e/position.cy.js",
+            "line": 274,
+            "column": 17,
+            "whitespace": "    "
+          },
+          {
+            "function": "getRet",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 120768,
+            "column": 20,
+            "whitespace": "    "
+          },
+          {
+            "function": "tryCatcher",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 1777,
+            "column": 23,
+            "whitespace": "    "
+          },
+          {
+            "function": "Promise.attempt.Promise.try",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 4285,
+            "column": 29,
+            "whitespace": "    "
+          },
+          {
+            "function": "Context.thenFn",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 120779,
+            "column": 66,
+            "whitespace": "    "
+          },
+          {
+            "function": "Context.then",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 121030,
+            "column": 21,
+            "whitespace": "    "
+          },
+          {
+            "function": "wrapped",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 141618,
+            "column": 19,
+            "whitespace": "    "
+          }
+        ],
+        "codeFrame": {
+          "line": 274,
+          "column": 18,
+          "originalFile": "cypress/e2e/position.cy.js",
+          "relativeFile": "cypress/e2e/position.cy.js",
+          "absoluteFile": "C:\\Users\\David\\Documents\\GitHub\\AI4Devs-qa-202506_DSM\\frontend/cypress/e2e/position.cy.js",
+          "frame": "  272 |               \n  273 |               // Perform drag operation\n> 274 |               cy.get('[data-testid=\"stage-column\"]').first().within(() => {\n      |                  ^\n  275 |                 cy.get('[data-testid=\"candidate-card\"]').first().then(($card) => {\n  276 |                   cy.wrap($card).trigger('dragstart');\n  277 |                   cy.get('[data-testid=\"stage-column\"]').eq(1).trigger('dragover');",
+          "language": "js"
+        }
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "should display the position title correctly",
+      "fullTitle": "Position Details - End to End Tests Use Case 1: Position Page Load should display the position title correctly",
+      "file": null,
+      "currentRetry": 0,
+      "err": {
+        "message": "Timed out retrying after 4000ms: expected '<h2.text-center.mb-4>' to contain text 'Frontend Developer', but the text was 'Senior Full-Stack Engineer'",
+        "name": "AssertionError",
+        "stack": "AssertionError: Timed out retrying after 4000ms: expected '<h2.text-center.mb-4>' to contain text 'Frontend Developer', but the text was 'Senior Full-Stack Engineer'\n    at Context.eval (webpack://frontend/./cypress/e2e/position.cy.js:26:19)",
+        "parsedStack": [
+          {
+            "message": "AssertionError: Timed out retrying after 4000ms: expected '<h2.text-center.mb-4>' to contain text 'Frontend Developer', but the text was 'Senior Full-Stack Engineer'",
+            "whitespace": ""
+          },
+          {
+            "function": "Context.eval",
+            "fileUrl": "http://localhost:3000/__cypress/tests?p=cypress\\e2e\\position.cy.js",
+            "originalFile": "webpack://frontend/./cypress/e2e/position.cy.js",
+            "relativeFile": "cypress/e2e/position.cy.js",
+            "absoluteFile": "C:\\Users\\David\\Documents\\GitHub\\AI4Devs-qa-202506_DSM\\frontend/cypress/e2e/position.cy.js",
+            "line": 26,
+            "column": 19,
+            "whitespace": "    "
+          }
+        ],
+        "actual": "'Senior Full-Stack Engineer'",
+        "expected": "'Frontend Developer'",
+        "showDiff": true,
+        "codeFrame": {
+          "line": 26,
+          "column": 20,
+          "originalFile": "cypress/e2e/position.cy.js",
+          "relativeFile": "cypress/e2e/position.cy.js",
+          "absoluteFile": "C:\\Users\\David\\Documents\\GitHub\\AI4Devs-qa-202506_DSM\\frontend/cypress/e2e/position.cy.js",
+          "frame": "  24 |       \n  25 |       // Verify position title is displayed\n> 26 |       cy.get('h2').should('contain.text', 'Frontend Developer'); // Adjust based on your test data\n     |                    ^\n  27 |       \n  28 |       // Alternative: Check that any non-empty title is displayed\n  29 |       cy.get('h2').should('not.be.empty');",
+          "language": "js"
+        }
+      }
+    },
+    {
+      "title": "should display candidate cards in the correct column according to their current stage",
+      "fullTitle": "Position Details - End to End Tests Use Case 1: Position Page Load should display candidate cards in the correct column according to their current stage",
+      "file": null,
+      "currentRetry": 0,
+      "err": {
+        "message": "Timed out retrying after 4000ms: Expected to find element: `[data-testid=\"candidate-card\"]`, but never found it.",
+        "type": "existence",
+        "name": "AssertionError",
+        "stack": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `[data-testid=\"candidate-card\"]`, but never found it.\n    at Context.eval (webpack://frontend/./cypress/e2e/position.cy.js:71:17)\n    at withinFn (http://localhost:3000/__cypress/runner/cypress_runner.js:135903:8)\n    at <unknown> (http://localhost:3000/__cypress/runner/cypress_runner.js:135984:16)\n    at __WEBPACK_DEFAULT_EXPORT__ (http://localhost:3000/__cypress/runner/cypress_runner.js:133819:10)\n    at Context.within (http://localhost:3000/__cypress/runner/cypress_runner.js:135970:67)\n    at wrapped (http://localhost:3000/__cypress/runner/cypress_runner.js:141618:19)",
+        "parsedStack": [
+          {
+            "message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `[data-testid=\"candidate-card\"]`, but never found it.",
+            "whitespace": ""
+          },
+          {
+            "function": "Context.eval",
+            "fileUrl": "http://localhost:3000/__cypress/tests?p=cypress\\e2e\\position.cy.js",
+            "originalFile": "webpack://frontend/./cypress/e2e/position.cy.js",
+            "relativeFile": "cypress/e2e/position.cy.js",
+            "absoluteFile": "C:\\Users\\David\\Documents\\GitHub\\AI4Devs-qa-202506_DSM\\frontend/cypress/e2e/position.cy.js",
+            "line": 71,
+            "column": 17,
+            "whitespace": "    "
+          },
+          {
+            "function": "withinFn",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 135903,
+            "column": 8,
+            "whitespace": "    "
+          },
+          {
+            "function": "<unknown>",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 135984,
+            "column": 16,
+            "whitespace": "    "
+          },
+          {
+            "function": "__WEBPACK_DEFAULT_EXPORT__",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 133819,
+            "column": 10,
+            "whitespace": "    "
+          },
+          {
+            "function": "Context.within",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 135970,
+            "column": 67,
+            "whitespace": "    "
+          },
+          {
+            "function": "wrapped",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 141618,
+            "column": 19,
+            "whitespace": "    "
+          }
+        ],
+        "codeFrame": {
+          "line": 71,
+          "column": 18,
+          "originalFile": "cypress/e2e/position.cy.js",
+          "relativeFile": "cypress/e2e/position.cy.js",
+          "absoluteFile": "C:\\Users\\David\\Documents\\GitHub\\AI4Devs-qa-202506_DSM\\frontend/cypress/e2e/position.cy.js",
+          "frame": "  69 |             cy.get('.card-body').within(() => {\n  70 |               // If there are candidates, verify they are displayed properly\n> 71 |               cy.get('[data-testid=\"candidate-card\"]').then(($candidates) => {\n     |                  ^\n  72 |                 if ($candidates.length > 0) {\n  73 |                   // Verify each candidate card has required information\n  74 |                   cy.wrap($candidates).each(($card) => {",
+          "language": "js"
+        }
+      }
+    },
+    {
+      "title": "should load the page without errors",
+      "fullTitle": "Position Details - End to End Tests Use Case 1: Position Page Load should load the page without errors",
+      "file": null,
+      "currentRetry": 0,
+      "err": {
+        "message": "[Function: error] is not a spy or a call to a spy!",
+        "name": "TypeError",
+        "stack": "TypeError: [Function: error] is not a spy or a call to a spy!\n    at assertCanWorkWith (http://localhost:3000/__cypress/runner/cypress_runner.js:142749:19)\n    at Assertion.<anonymous> (http://localhost:3000/__cypress/runner/cypress_runner.js:142788:13)\n    at Assertion.propertyGetter (http://localhost:3000/__cypress/runner/cypress_runner.js:80142:29)\n    at Object.proxyGetter [as get] (http://localhost:3000/__cypress/runner/cypress_runner.js:80426:22)\n    at Context.eval (webpack://frontend/./cypress/e2e/position.cy.js:97:51)\n    at getRet (http://localhost:3000/__cypress/runner/cypress_runner.js:120768:20)\n    at tryCatcher (http://localhost:3000/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (http://localhost:3000/__cypress/runner/cypress_runner.js:4285:29)\n    at Context.thenFn (http://localhost:3000/__cypress/runner/cypress_runner.js:120779:66)\n    at Context.then (http://localhost:3000/__cypress/runner/cypress_runner.js:121030:21)\n    at wrapped (http://localhost:3000/__cypress/runner/cypress_runner.js:141618:19)\n    at <unknown> (http://localhost:3000/__cypress/runner/cypress_runner.js:147554:15)\n    at tryCatcher (http://localhost:3000/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (http://localhost:3000/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (http://localhost:3000/__cypress/runner/cypress_runner.js:1546:18)\n    at Promise._settlePromiseCtx (http://localhost:3000/__cypress/runner/cypress_runner.js:1583:10)\n    at _drainQueueStep (http://localhost:3000/__cypress/runner/cypress_runner.js:2381:12)\n    at _drainQueue (http://localhost:3000/__cypress/runner/cypress_runner.js:2370:9)\n    at Async._drainQueues (http://localhost:3000/__cypress/runner/cypress_runner.js:2386:5)\n    at Async.drainQueues (http://localhost:3000/__cypress/runner/cypress_runner.js:2256:14)",
+        "parsedStack": [
+          {
+            "message": "TypeError: [Function: error] is not a spy or a call to a spy!",
+            "whitespace": ""
+          },
+          {
+            "function": "assertCanWorkWith",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 142749,
+            "column": 19,
+            "whitespace": "    "
+          },
+          {
+            "function": "Assertion.<anonymous>",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 142788,
+            "column": 13,
+            "whitespace": "    "
+          },
+          {
+            "function": "Assertion.propertyGetter",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 80142,
+            "column": 29,
+            "whitespace": "    "
+          },
+          {
+            "function": "Object.proxyGetter [as get]",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 80426,
+            "column": 22,
+            "whitespace": "    "
+          },
+          {
+            "function": "Context.eval",
+            "fileUrl": "http://localhost:3000/__cypress/tests?p=cypress\\e2e\\position.cy.js",
+            "originalFile": "webpack://frontend/./cypress/e2e/position.cy.js",
+            "relativeFile": "cypress/e2e/position.cy.js",
+            "absoluteFile": "C:\\Users\\David\\Documents\\GitHub\\AI4Devs-qa-202506_DSM\\frontend/cypress/e2e/position.cy.js",
+            "line": 97,
+            "column": 51,
+            "whitespace": "    "
+          },
+          {
+            "function": "getRet",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 120768,
+            "column": 20,
+            "whitespace": "    "
+          },
+          {
+            "function": "tryCatcher",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 1777,
+            "column": 23,
+            "whitespace": "    "
+          },
+          {
+            "function": "Promise.attempt.Promise.try",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 4285,
+            "column": 29,
+            "whitespace": "    "
+          },
+          {
+            "function": "Context.thenFn",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 120779,
+            "column": 66,
+            "whitespace": "    "
+          },
+          {
+            "function": "Context.then",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 121030,
+            "column": 21,
+            "whitespace": "    "
+          },
+          {
+            "function": "wrapped",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 141618,
+            "column": 19,
+            "whitespace": "    "
+          },
+          {
+            "function": "<unknown>",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 147554,
+            "column": 15,
+            "whitespace": "    "
+          },
+          {
+            "function": "tryCatcher",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 1777,
+            "column": 23,
+            "whitespace": "    "
+          },
+          {
+            "function": "Promise._settlePromiseFromHandler",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 1489,
+            "column": 31,
+            "whitespace": "    "
+          },
+          {
+            "function": "Promise._settlePromise",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 1546,
+            "column": 18,
+            "whitespace": "    "
+          },
+          {
+            "function": "Promise._settlePromiseCtx",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 1583,
+            "column": 10,
+            "whitespace": "    "
+          },
+          {
+            "function": "_drainQueueStep",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 2381,
+            "column": 12,
+            "whitespace": "    "
+          },
+          {
+            "function": "_drainQueue",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 2370,
+            "column": 9,
+            "whitespace": "    "
+          },
+          {
+            "function": "Async._drainQueues",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 2386,
+            "column": 5,
+            "whitespace": "    "
+          },
+          {
+            "function": "Async.drainQueues",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 2256,
+            "column": 14,
+            "whitespace": "    "
+          }
+        ]
+      }
+    },
+    {
+      "title": "should simulate dragging a candidate card from one column to another",
+      "fullTitle": "Position Details - End to End Tests Use Case 2: Candidate Stage Change should simulate dragging a candidate card from one column to another",
+      "file": null,
+      "currentRetry": 0,
+      "err": {
+        "message": "Timed out retrying after 4000ms: Expected to find element: `[data-testid=\"candidate-card\"]`, but never found it.",
+        "type": "existence",
+        "name": "AssertionError",
+        "stack": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `[data-testid=\"candidate-card\"]`, but never found it.\n    at Context.eval (webpack://frontend/./cypress/e2e/position.cy.js:121:11)\n    at withinFn (http://localhost:3000/__cypress/runner/cypress_runner.js:135903:8)\n    at <unknown> (http://localhost:3000/__cypress/runner/cypress_runner.js:135984:16)\n    at __WEBPACK_DEFAULT_EXPORT__ (http://localhost:3000/__cypress/runner/cypress_runner.js:133819:10)\n    at Context.within (http://localhost:3000/__cypress/runner/cypress_runner.js:135970:67)\n    at wrapped (http://localhost:3000/__cypress/runner/cypress_runner.js:141618:19)",
+        "parsedStack": [
+          {
+            "message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `[data-testid=\"candidate-card\"]`, but never found it.",
+            "whitespace": ""
+          },
+          {
+            "function": "Context.eval",
+            "fileUrl": "http://localhost:3000/__cypress/tests?p=cypress\\e2e\\position.cy.js",
+            "originalFile": "webpack://frontend/./cypress/e2e/position.cy.js",
+            "relativeFile": "cypress/e2e/position.cy.js",
+            "absoluteFile": "C:\\Users\\David\\Documents\\GitHub\\AI4Devs-qa-202506_DSM\\frontend/cypress/e2e/position.cy.js",
+            "line": 121,
+            "column": 11,
+            "whitespace": "    "
+          },
+          {
+            "function": "withinFn",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 135903,
+            "column": 8,
+            "whitespace": "    "
+          },
+          {
+            "function": "<unknown>",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 135984,
+            "column": 16,
+            "whitespace": "    "
+          },
+          {
+            "function": "__WEBPACK_DEFAULT_EXPORT__",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 133819,
+            "column": 10,
+            "whitespace": "    "
+          },
+          {
+            "function": "Context.within",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 135970,
+            "column": 67,
+            "whitespace": "    "
+          },
+          {
+            "function": "wrapped",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 141618,
+            "column": 19,
+            "whitespace": "    "
+          }
+        ],
+        "codeFrame": {
+          "line": 121,
+          "column": 12,
+          "originalFile": "cypress/e2e/position.cy.js",
+          "relativeFile": "cypress/e2e/position.cy.js",
+          "absoluteFile": "C:\\Users\\David\\Documents\\GitHub\\AI4Devs-qa-202506_DSM\\frontend/cypress/e2e/position.cy.js",
+          "frame": "  119 |       // Find the first column with candidates\n  120 |       cy.get('[data-testid=\"stage-column\"]').first().within(() => {\n> 121 |         cy.get('[data-testid=\"candidate-card\"]').first().then(($candidateCard) => {\n      |            ^\n  122 |           if ($candidateCard.length > 0) {\n  123 |             // Get the candidate name for verification\n  124 |             cy.wrap($candidateCard).find('.card-title').invoke('text').then((candidateName) => {",
+          "language": "js"
+        }
+      }
+    },
+    {
+      "title": "should ensure the candidate card moves to the new column visually",
+      "fullTitle": "Position Details - End to End Tests Use Case 2: Candidate Stage Change should ensure the candidate card moves to the new column visually",
+      "file": null,
+      "currentRetry": 0,
+      "err": {
+        "message": "Timed out retrying after 4000ms: Expected to find element: `[data-testid=\"candidate-card\"]`, but never found it.",
+        "type": "existence",
+        "name": "AssertionError",
+        "stack": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `[data-testid=\"candidate-card\"]`, but never found it.\n    at Context.eval (webpack://frontend/./cypress/e2e/position.cy.js:151:15)\n    at withinFn (http://localhost:3000/__cypress/runner/cypress_runner.js:135903:8)\n    at <unknown> (http://localhost:3000/__cypress/runner/cypress_runner.js:135984:16)\n    at __WEBPACK_DEFAULT_EXPORT__ (http://localhost:3000/__cypress/runner/cypress_runner.js:133819:10)\n    at Context.within (http://localhost:3000/__cypress/runner/cypress_runner.js:135970:67)\n    at wrapped (http://localhost:3000/__cypress/runner/cypress_runner.js:141618:19)",
+        "parsedStack": [
+          {
+            "message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `[data-testid=\"candidate-card\"]`, but never found it.",
+            "whitespace": ""
+          },
+          {
+            "function": "Context.eval",
+            "fileUrl": "http://localhost:3000/__cypress/tests?p=cypress\\e2e\\position.cy.js",
+            "originalFile": "webpack://frontend/./cypress/e2e/position.cy.js",
+            "relativeFile": "cypress/e2e/position.cy.js",
+            "absoluteFile": "C:\\Users\\David\\Documents\\GitHub\\AI4Devs-qa-202506_DSM\\frontend/cypress/e2e/position.cy.js",
+            "line": 151,
+            "column": 15,
+            "whitespace": "    "
+          },
+          {
+            "function": "withinFn",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 135903,
+            "column": 8,
+            "whitespace": "    "
+          },
+          {
+            "function": "<unknown>",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 135984,
+            "column": 16,
+            "whitespace": "    "
+          },
+          {
+            "function": "__WEBPACK_DEFAULT_EXPORT__",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 133819,
+            "column": 10,
+            "whitespace": "    "
+          },
+          {
+            "function": "Context.within",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 135970,
+            "column": 67,
+            "whitespace": "    "
+          },
+          {
+            "function": "wrapped",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 141618,
+            "column": 19,
+            "whitespace": "    "
+          }
+        ],
+        "codeFrame": {
+          "line": 151,
+          "column": 16,
+          "originalFile": "cypress/e2e/position.cy.js",
+          "relativeFile": "cypress/e2e/position.cy.js",
+          "absoluteFile": "C:\\Users\\David\\Documents\\GitHub\\AI4Devs-qa-202506_DSM\\frontend/cypress/e2e/position.cy.js",
+          "frame": "  149 |           // Get initial state of columns\n  150 |           cy.get('[data-testid=\"stage-column\"]').first().within(() => {\n> 151 |             cy.get('[data-testid=\"candidate-card\"]').its('length').then((initialCount) => {\n      |                ^\n  152 |               \n  153 |               // Perform the drag operation\n  154 |               cy.get('[data-testid=\"candidate-card\"]').first().then(($card) => {",
+          "language": "js"
+        }
+      }
+    },
+    {
+      "title": "should ensure the candidate stage is updated in the backend via PUT /candidates/:id endpoint",
+      "fullTitle": "Position Details - End to End Tests Use Case 2: Candidate Stage Change should ensure the candidate stage is updated in the backend via PUT /candidates/:id endpoint",
+      "file": null,
+      "currentRetry": 0,
+      "err": {
+        "message": "Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `updateCandidate`. No request ever occurred.\n\nhttps://on.cypress.io/wait",
+        "name": "CypressError",
+        "stack": "CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `updateCandidate`. No request ever occurred.\n\nhttps://on.cypress.io/wait\n    at cypressErr (http://localhost:3000/__cypress/runner/cypress_runner.js:77664:18)\n    at Object.errByPath (http://localhost:3000/__cypress/runner/cypress_runner.js:77718:10)\n    at checkForXhr (http://localhost:3000/__cypress/runner/cypress_runner.js:138846:84)\n    at <unknown> (http://localhost:3000/__cypress/runner/cypress_runner.js:138872:28)\n    at tryCatcher (http://localhost:3000/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (http://localhost:3000/__cypress/runner/cypress_runner.js:4285:29)\n    at whenStable (http://localhost:3000/__cypress/runner/cypress_runner.js:147282:68)\n    at <unknown> (http://localhost:3000/__cypress/runner/cypress_runner.js:147223:14)\n    at tryCatcher (http://localhost:3000/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (http://localhost:3000/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (http://localhost:3000/__cypress/runner/cypress_runner.js:1546:18)\n    at Promise._settlePromise0 (http://localhost:3000/__cypress/runner/cypress_runner.js:1591:10)\n    at Promise._settlePromises (http://localhost:3000/__cypress/runner/cypress_runner.js:1671:18)\n    at Promise._fulfill (http://localhost:3000/__cypress/runner/cypress_runner.js:1615:18)\n    at <unknown> (http://localhost:3000/__cypress/runner/cypress_runner.js:5420:46)",
+        "parsedStack": [
+          {
+            "message": "CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `updateCandidate`. No request ever occurred.",
+            "whitespace": ""
+          },
+          {
+            "function": "cypressErr",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 77664,
+            "column": 18,
+            "whitespace": "    "
+          },
+          {
+            "function": "Object.errByPath",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 77718,
+            "column": 10,
+            "whitespace": "    "
+          },
+          {
+            "function": "checkForXhr",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 138846,
+            "column": 84,
+            "whitespace": "    "
+          },
+          {
+            "function": "<unknown>",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 138872,
+            "column": 28,
+            "whitespace": "    "
+          },
+          {
+            "function": "tryCatcher",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 1777,
+            "column": 23,
+            "whitespace": "    "
+          },
+          {
+            "function": "Promise.attempt.Promise.try",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 4285,
+            "column": 29,
+            "whitespace": "    "
+          },
+          {
+            "function": "whenStable",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 147282,
+            "column": 68,
+            "whitespace": "    "
+          },
+          {
+            "function": "<unknown>",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 147223,
+            "column": 14,
+            "whitespace": "    "
+          },
+          {
+            "function": "tryCatcher",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 1777,
+            "column": 23,
+            "whitespace": "    "
+          },
+          {
+            "function": "Promise._settlePromiseFromHandler",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 1489,
+            "column": 31,
+            "whitespace": "    "
+          },
+          {
+            "function": "Promise._settlePromise",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 1546,
+            "column": 18,
+            "whitespace": "    "
+          },
+          {
+            "function": "Promise._settlePromise0",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 1591,
+            "column": 10,
+            "whitespace": "    "
+          },
+          {
+            "function": "Promise._settlePromises",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 1671,
+            "column": 18,
+            "whitespace": "    "
+          },
+          {
+            "function": "Promise._fulfill",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 1615,
+            "column": 18,
+            "whitespace": "    "
+          },
+          {
+            "function": "<unknown>",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 5420,
+            "column": 46,
+            "whitespace": "    "
+          }
+        ]
+      }
+    },
+    {
+      "title": "should handle drag and drop errors gracefully",
+      "fullTitle": "Position Details - End to End Tests Use Case 2: Candidate Stage Change should handle drag and drop errors gracefully",
+      "file": null,
+      "currentRetry": 0,
+      "err": {
+        "message": "Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `updateCandidateError`. No request ever occurred.\n\nhttps://on.cypress.io/wait",
+        "name": "CypressError",
+        "stack": "CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `updateCandidateError`. No request ever occurred.\n\nhttps://on.cypress.io/wait\n    at cypressErr (http://localhost:3000/__cypress/runner/cypress_runner.js:77664:18)\n    at Object.errByPath (http://localhost:3000/__cypress/runner/cypress_runner.js:77718:10)\n    at checkForXhr (http://localhost:3000/__cypress/runner/cypress_runner.js:138846:84)\n    at <unknown> (http://localhost:3000/__cypress/runner/cypress_runner.js:138872:28)\n    at tryCatcher (http://localhost:3000/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (http://localhost:3000/__cypress/runner/cypress_runner.js:4285:29)\n    at whenStable (http://localhost:3000/__cypress/runner/cypress_runner.js:147282:68)\n    at <unknown> (http://localhost:3000/__cypress/runner/cypress_runner.js:147223:14)\n    at tryCatcher (http://localhost:3000/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (http://localhost:3000/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (http://localhost:3000/__cypress/runner/cypress_runner.js:1546:18)\n    at Promise._settlePromise0 (http://localhost:3000/__cypress/runner/cypress_runner.js:1591:10)\n    at Promise._settlePromises (http://localhost:3000/__cypress/runner/cypress_runner.js:1671:18)\n    at Promise._fulfill (http://localhost:3000/__cypress/runner/cypress_runner.js:1615:18)\n    at <unknown> (http://localhost:3000/__cypress/runner/cypress_runner.js:5420:46)",
+        "parsedStack": [
+          {
+            "message": "CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `updateCandidateError`. No request ever occurred.",
+            "whitespace": ""
+          },
+          {
+            "function": "cypressErr",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 77664,
+            "column": 18,
+            "whitespace": "    "
+          },
+          {
+            "function": "Object.errByPath",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 77718,
+            "column": 10,
+            "whitespace": "    "
+          },
+          {
+            "function": "checkForXhr",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 138846,
+            "column": 84,
+            "whitespace": "    "
+          },
+          {
+            "function": "<unknown>",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 138872,
+            "column": 28,
+            "whitespace": "    "
+          },
+          {
+            "function": "tryCatcher",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 1777,
+            "column": 23,
+            "whitespace": "    "
+          },
+          {
+            "function": "Promise.attempt.Promise.try",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 4285,
+            "column": 29,
+            "whitespace": "    "
+          },
+          {
+            "function": "whenStable",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 147282,
+            "column": 68,
+            "whitespace": "    "
+          },
+          {
+            "function": "<unknown>",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 147223,
+            "column": 14,
+            "whitespace": "    "
+          },
+          {
+            "function": "tryCatcher",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 1777,
+            "column": 23,
+            "whitespace": "    "
+          },
+          {
+            "function": "Promise._settlePromiseFromHandler",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 1489,
+            "column": 31,
+            "whitespace": "    "
+          },
+          {
+            "function": "Promise._settlePromise",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 1546,
+            "column": 18,
+            "whitespace": "    "
+          },
+          {
+            "function": "Promise._settlePromise0",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 1591,
+            "column": 10,
+            "whitespace": "    "
+          },
+          {
+            "function": "Promise._settlePromises",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 1671,
+            "column": 18,
+            "whitespace": "    "
+          },
+          {
+            "function": "Promise._fulfill",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 1615,
+            "column": 18,
+            "whitespace": "    "
+          },
+          {
+            "function": "<unknown>",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 5420,
+            "column": 46,
+            "whitespace": "    "
+          }
+        ]
+      }
+    },
+    {
+      "title": "should maintain drag and drop functionality across multiple operations",
+      "fullTitle": "Position Details - End to End Tests Use Case 2: Candidate Stage Change should maintain drag and drop functionality across multiple operations",
+      "file": null,
+      "currentRetry": 0,
+      "err": {
+        "message": "Timed out retrying after 4000ms: expected [] to have a length of 2 but got 0",
+        "name": "AssertionError",
+        "stack": "AssertionError: Timed out retrying after 4000ms: expected [] to have a length of 2 but got 0\n    at Context.eval (webpack://frontend/./cypress/e2e/position.cy.js:252:41)\n    at getRet (http://localhost:3000/__cypress/runner/cypress_runner.js:120768:20)\n    at tryCatcher (http://localhost:3000/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (http://localhost:3000/__cypress/runner/cypress_runner.js:4285:29)\n    at Context.thenFn (http://localhost:3000/__cypress/runner/cypress_runner.js:120779:66)\n    at Context.then (http://localhost:3000/__cypress/runner/cypress_runner.js:121030:21)\n    at wrapped (http://localhost:3000/__cypress/runner/cypress_runner.js:141618:19)",
+        "parsedStack": [
+          {
+            "message": "AssertionError: Timed out retrying after 4000ms: expected [] to have a length of 2 but got 0",
+            "whitespace": ""
+          },
+          {
+            "function": "Context.eval",
+            "fileUrl": "http://localhost:3000/__cypress/tests?p=cypress\\e2e\\position.cy.js",
+            "originalFile": "webpack://frontend/./cypress/e2e/position.cy.js",
+            "relativeFile": "cypress/e2e/position.cy.js",
+            "absoluteFile": "C:\\Users\\David\\Documents\\GitHub\\AI4Devs-qa-202506_DSM\\frontend/cypress/e2e/position.cy.js",
+            "line": 252,
+            "column": 41,
+            "whitespace": "    "
+          },
+          {
+            "function": "getRet",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 120768,
+            "column": 20,
+            "whitespace": "    "
+          },
+          {
+            "function": "tryCatcher",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 1777,
+            "column": 23,
+            "whitespace": "    "
+          },
+          {
+            "function": "Promise.attempt.Promise.try",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 4285,
+            "column": 29,
+            "whitespace": "    "
+          },
+          {
+            "function": "Context.thenFn",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 120779,
+            "column": 66,
+            "whitespace": "    "
+          },
+          {
+            "function": "Context.then",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 121030,
+            "column": 21,
+            "whitespace": "    "
+          },
+          {
+            "function": "wrapped",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 141618,
+            "column": 19,
+            "whitespace": "    "
+          }
+        ],
+        "actual": 0,
+        "expected": "2",
+        "showDiff": true,
+        "codeFrame": {
+          "line": 252,
+          "column": 42,
+          "originalFile": "cypress/e2e/position.cy.js",
+          "relativeFile": "cypress/e2e/position.cy.js",
+          "absoluteFile": "C:\\Users\\David\\Documents\\GitHub\\AI4Devs-qa-202506_DSM\\frontend/cypress/e2e/position.cy.js",
+          "frame": "  250 |           \n  251 |           // Verify both operations triggered API calls\n> 252 |           cy.get('@updateCandidate.all').should('have.length', 2);\n      |                                          ^\n  253 |         }\n  254 |       });\n  255 |     });",
+          "language": "js"
+        }
+      }
+    },
+    {
+      "title": "should maintain data consistency between frontend and backend after stage changes",
+      "fullTitle": "Position Details - End to End Tests Integration Tests should maintain data consistency between frontend and backend after stage changes",
+      "file": null,
+      "currentRetry": 0,
+      "err": {
+        "message": "Timed out retrying after 4000ms: Expected to find element: `[data-testid=\"stage-column\"]`, but never found it.",
+        "type": "existence",
+        "name": "AssertionError",
+        "stack": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `[data-testid=\"stage-column\"]`, but never found it.\n    at Context.eval (webpack://frontend/./cypress/e2e/position.cy.js:274:17)\n    at getRet (http://localhost:3000/__cypress/runner/cypress_runner.js:120768:20)\n    at tryCatcher (http://localhost:3000/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (http://localhost:3000/__cypress/runner/cypress_runner.js:4285:29)\n    at Context.thenFn (http://localhost:3000/__cypress/runner/cypress_runner.js:120779:66)\n    at Context.then (http://localhost:3000/__cypress/runner/cypress_runner.js:121030:21)\n    at wrapped (http://localhost:3000/__cypress/runner/cypress_runner.js:141618:19)",
+        "parsedStack": [
+          {
+            "message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `[data-testid=\"stage-column\"]`, but never found it.",
+            "whitespace": ""
+          },
+          {
+            "function": "Context.eval",
+            "fileUrl": "http://localhost:3000/__cypress/tests?p=cypress\\e2e\\position.cy.js",
+            "originalFile": "webpack://frontend/./cypress/e2e/position.cy.js",
+            "relativeFile": "cypress/e2e/position.cy.js",
+            "absoluteFile": "C:\\Users\\David\\Documents\\GitHub\\AI4Devs-qa-202506_DSM\\frontend/cypress/e2e/position.cy.js",
+            "line": 274,
+            "column": 17,
+            "whitespace": "    "
+          },
+          {
+            "function": "getRet",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 120768,
+            "column": 20,
+            "whitespace": "    "
+          },
+          {
+            "function": "tryCatcher",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 1777,
+            "column": 23,
+            "whitespace": "    "
+          },
+          {
+            "function": "Promise.attempt.Promise.try",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 4285,
+            "column": 29,
+            "whitespace": "    "
+          },
+          {
+            "function": "Context.thenFn",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 120779,
+            "column": 66,
+            "whitespace": "    "
+          },
+          {
+            "function": "Context.then",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 121030,
+            "column": 21,
+            "whitespace": "    "
+          },
+          {
+            "function": "wrapped",
+            "fileUrl": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "originalFile": "http://localhost:3000/__cypress/runner/cypress_runner.js",
+            "line": 141618,
+            "column": 19,
+            "whitespace": "    "
+          }
+        ],
+        "codeFrame": {
+          "line": 274,
+          "column": 18,
+          "originalFile": "cypress/e2e/position.cy.js",
+          "relativeFile": "cypress/e2e/position.cy.js",
+          "absoluteFile": "C:\\Users\\David\\Documents\\GitHub\\AI4Devs-qa-202506_DSM\\frontend/cypress/e2e/position.cy.js",
+          "frame": "  272 |               \n  273 |               // Perform drag operation\n> 274 |               cy.get('[data-testid=\"stage-column\"]').first().within(() => {\n      |                  ^\n  275 |                 cy.get('[data-testid=\"candidate-card\"]').first().then(($card) => {\n  276 |                   cy.wrap($card).trigger('dragstart');\n  277 |                   cy.get('[data-testid=\"stage-column\"]').eq(1).trigger('dragover');",
+          "language": "js"
+        }
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "should display all columns for each hiring stage",
+      "fullTitle": "Position Details - End to End Tests Use Case 1: Position Page Load should display all columns for each hiring stage",
+      "file": null,
+      "duration": 810,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
+  (Results)
+
+  ÔöîÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÉ
+  Ôöé Tests:        10                                                                               Ôöé
+  Ôöé Passing:      1                                                                                Ôöé
+  Ôöé Failing:      9                                                                                Ôöé
+  Ôöé Pending:      0                                                                                Ôöé
+  Ôöé Skipped:      0                                                                                Ôöé
+  Ôöé Screenshots:  9                                                                                Ôöé
+  Ôöé Video:        false                                                                            Ôöé
+  Ôöé Duration:     48 seconds                                                                       Ôöé
+  Ôöé Spec Ran:     position.cy.js                                                                   Ôöé
+  ÔööÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÿ
+
+
+  (Screenshots)
+
+  -  C:\Users\David\Documents\GitHub\AI4Devs-qa-202506_DSM\frontend\cypress\screensho     (1280x720)
+     ts\position.cy.js\Position Details - End to End Tests -- Use Case 1 Position Pag               
+     e Load -- should display the position title correctly (failed).png                             
+  -  C:\Users\David\Documents\GitHub\AI4Devs-qa-202506_DSM\frontend\cypress\screensho     (1280x720)
+     ts\position.cy.js\Position Details - End to End Tests -- Use Case 1 Position Pag               
+     e Load -- should display candidate cards in the correct column according to thei               
+     r current stage (failed).png                                                                   
+  -  C:\Users\David\Documents\GitHub\AI4Devs-qa-202506_DSM\frontend\cypress\screensho     (1280x720)
+     ts\position.cy.js\Position Details - End to End Tests -- Use Case 1 Position Pag               
+     e Load -- should load the page without errors (failed).png                                     
+  -  C:\Users\David\Documents\GitHub\AI4Devs-qa-202506_DSM\frontend\cypress\screensho     (1280x720)
+     ts\position.cy.js\Position Details - End to End Tests -- Use Case 2 Candidate St               
+     age Change -- should simulate dragging a candidate card from one column to anoth               
+     er (failed).png                                                                                
+  -  C:\Users\David\Documents\GitHub\AI4Devs-qa-202506_DSM\frontend\cypress\screensho     (1280x720)
+     ts\position.cy.js\Position Details - End to End Tests -- Use Case 2 Candidate St               
+     age Change -- should ensure the candidate card moves to the new column visually                
+     (failed).png                                                                                   
+  -  C:\Users\David\Documents\GitHub\AI4Devs-qa-202506_DSM\frontend\cypress\screensho     (1280x720)
+     ts\position.cy.js\Position Details - End to End Tests -- Use Case 2 Candidate St               
+     age Change -- should ensure the candidate stage is updated in the backend via PU               
+     T candidatesid endpoint (failed).png                                                           
+  -  C:\Users\David\Documents\GitHub\AI4Devs-qa-202506_DSM\frontend\cypress\screensho     (1280x720)
+     ts\position.cy.js\Position Details - End to End Tests -- Use Case 2 Candidate St               
+     age Change -- should handle drag and drop errors gracefully (failed).png                       
+  -  C:\Users\David\Documents\GitHub\AI4Devs-qa-202506_DSM\frontend\cypress\screensho     (1280x720)
+     ts\position.cy.js\Position Details - End to End Tests -- Use Case 2 Candidate St               
+     age Change -- should maintain drag and drop functionality across multiple operat               
+     ions (failed).png                                                                              
+  -  C:\Users\David\Documents\GitHub\AI4Devs-qa-202506_DSM\frontend\cypress\screensho     (1280x720)
+     ts\position.cy.js\Position Details - End to End Tests -- Integration Tests -- sh               
+     ould maintain data consistency between frontend and backend after stage changes                
+     (failed).png                                                                                   
+
+
+====================================================================================================
+
+  (Run Finished)
+
+
+       Spec                                              Tests  Passing  Failing  Pending  Skipped  
+  ÔöîÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÉ
+  Ôöé ├ù  position.cy.js                           00:48       10        1        9        -        - Ôöé
+  ÔööÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÿ
+    ├ù  1 of 1 failed (100%)                     00:48       10        1        9        -        -  
+
